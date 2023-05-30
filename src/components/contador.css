@@ -1,0 +1,38 @@
+.buttonUp {
+    
+    background-image: url('https://www.reshot.com/preview-assets/icons/GD79T58SP2/heart-GD79T58SP2.svg');
+    background-size: 150px 150px;
+    height: 150px;  
+    width: 150px;
+    border: none;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5.0rem;
+    margin: 4.0rem;
+    margin-top: none;
+    background-color: #efefef;
+    border-style: double;
+    border-radius: 1.0rem;
+    border-color: palevioletred;
+}
+span {
+    margin-top: 10px;
+    padding: 1.0rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+@media screen and (min-width: 900px) {
+    .buttonUp{
+        background-size: 180px 180px;
+        height: 180px;  
+        width: 180px;
+    }
+    span{
+        font-size: 1.6rem;
+    }
+}
